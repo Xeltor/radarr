@@ -1,4 +1,4 @@
-FROM linuxserver/radarr
+FROM linuxserver/radarr:preview
 
 RUN apt-get update && \
     apt-get install -y mkvtoolnix gpac && \
